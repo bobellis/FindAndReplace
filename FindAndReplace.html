@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Find and Replace</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+    <h1> Find and Replace </h1>
+    <form id='message-form'>
+      <div class="form-group">
+        <label for="message">Enter a string to search</label>
+        <input id="message" type="text" size=50>
+        <p></p>
+        <label for="textToReplace">Enter the word you'd like to replace.</label>
+        <input id="textToReplace" type="text">
+        <p></p>
+        <label for="replacementText">Enter the word you'd like to replace the other word with</label>
+        <input id="replacementText" type="text">
+      </div>
+      <button type="submit" class="btn btn-success">Replace</button>
+    </form>
+
+    <div id="displayed-message">
+      <h1> New string: <span class="text-success" id="entered-message"> </span> </h1>
+    </div>
+  </div>
+  </body>
+</html>
