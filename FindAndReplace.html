@@ -12,21 +12,19 @@
     <h1> Find and Replace </h1>
     <form id='message-form'>
       <div class="form-group">
-        <label for="message">Enter a string to search</label>
+        <label for="message">Enter a string to search:</label>
         <input id="message" type="text" size=50>
         <p></p>
-        <label for="textToReplace">Enter the word you'd like to replace.</label>
+        <label for="textToReplace">Enter the word you'd like to replace:</label>
         <input id="textToReplace" type="text">
         <p></p>
-        <label for="replacementText">Enter the word you'd like to replace the other word with</label>
+        <label for="replacementText">Enter your replacement word:</label>
         <input id="replacementText" type="text">
       </div>
       <button type="submit" class="btn btn-success">Replace</button>
     </form>
-
-    <div id="displayed-message">
-      <h1> New string: <span class="text-success" id="entered-message"> </span> </h1>
-    </div>
+    <p></p>
+    <div class="alert-info" id="replaced-message"></div>
   </div>
   </body>
 </html>
